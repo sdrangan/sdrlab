@@ -37,3 +37,6 @@ from the former TA Ish Jain.
 ## Labs
 
 * Lab 1:  Setting up the SDR and capturing and receiving baseband samples
+    * [Directory for files](./lab01_intro/)
+* Lab 2:  Digital modulation and frequency correction
+* Lab 3:  SNR and gain control
