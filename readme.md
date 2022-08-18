@@ -35,8 +35,12 @@ from the former TA Ish Jain.
 
 
 ## Labs
+Currently only lab 1 is done.  The other labs will be added over the semester.  I may also add some lecture slides and videos to help.
 
-* Lab 1:  Setting up the SDR and capturing and receiving baseband samples
+* Lab 1:  Setting up the SDR and transmitting and receiving baseband samples
     * [Directory for files](./lab01_intro/)
-* Lab 2:  Digital modulation and frequency correction
+* Lab 2:  Frequency offset estimation and synchronization
 * Lab 3:  SNR and gain control
+* Lab 4:  Timing estimation and frame synchronization
+* Lab 5:  OFDM equalization
+* Lab 6:  Transmitting and receiving 802.11-like packets
