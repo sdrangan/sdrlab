@@ -5,7 +5,7 @@
 This repo contains some simple labs for software defined radios (SDRs).  I am developing these to be used in conjunction
 with the undergraduate and graduate digital communications classes at New York University.  The initial labs are based on
 the simple, but excellent [ADALM-Pluto boards](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html)
-from Analog Devices. The Pluto devices can be easily run via a well-developed and stable [MATLAB interface](https://www.mathworks.com/help/supportpkg/plutoradio/ug/install-support-package-for-pluto-radio.html).  NYU students enrolled in the class will be able to borrow a Pluto device from the TA.  All NYU students also have free access to MATLAB.
+from Analog Devices along with an easy-to-use [MATLAB interface](https://www.mathworks.com/help/supportpkg/plutoradio/ug/install-support-package-for-pluto-radio.html).  NYU students enrolled in the class will be able to borrow a Pluto device from the TA.  All NYU students also have free access to MATLAB.
 
 <img src="ADALM-Pluto-web.png" alt="ADALM Pluto" width="300">
 
@@ -35,5 +35,12 @@ from the former TA Ish Jain.
 
 
 ## Labs
+Currently only lab 1 is done.  The other labs will be added over the semester.  I may also add some lecture slides and videos to help.
 
-* Lab 1:  Setting up the SDR and capturing and receiving baseband samples
+* Lab 1:  Setting up the SDR and transmitting and receiving baseband samples
+    * [Directory for files](./lab01_intro/)
+* Lab 2:  Frequency offset estimation and synchronization
+* Lab 3:  SNR and gain control
+* Lab 4:  Timing estimation and frame synchronization
+* Lab 5:  OFDM equalization
+* Lab 6:  Transmitting and receiving 802.11-like packets
