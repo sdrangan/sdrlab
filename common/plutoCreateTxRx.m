@@ -18,8 +18,8 @@ arguments
     options.createTx (1,1) {boolean} = true;
     options.createRx (1,1) {boolean} = true;
     options.loopback (1,1) {boolean} = false;
-    options.sampleRate (1,1) {double} = 30.72e6;  
-    options.nsampsFrame (1,1) {int32} = 2^12;
+    options.sampleRate (1,1) double = 30.72e6;  
+    options.nsampsFrame (1,1) int32 = 2^12;
 end
 
 
@@ -49,13 +49,15 @@ else
     end   
 end
 
-% Create the SDR objects
+% Create the SDR TX object
 if options.createTx
     tx = sdrtx('Pluto','RadioID',idtx,'BasebandSampleRate', options.sampleRate);
     disp('Successfully create TX object');
 else
     tx = [];
 end
+
+% Create the SDR RX object
 if options.createRx
     rx = sdrrx('Pluto','RadioID',idrx,'BasebandSampleRate', options.sampleRate, ...
         'SamplesPerFrame', options.nsampsFrame);

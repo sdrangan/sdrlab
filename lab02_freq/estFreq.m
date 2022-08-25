@@ -2,13 +2,14 @@
 function [nuest, cest, Jhist] = estFreq(r, options)
 % estFreq:  Estimates the frequency of a complex exponential
 %
-% Given a signal r[n] = c*exp(2*pi*1i*nu) + noise
+% Given a signal r[n] = c*exp(2*pi*1i*nu*n) + noise
 % the function attempts to estimate the normalized digital frequency, nu,
 % and the complex amplitude c.
 %
 % Parameters
 % ----------
-% method:  'correlation', 'fft' or 'grad' for correlation,  
+% method:  method for estimating the frequency
+%    'correlation', 'fft' or 'grad' for correlation,  
 %    FFT or gradient descent method
 % oversample:  Oversampling ratio in the FFT method
 % nit:  number of iterations for gradient descent
@@ -21,20 +22,14 @@ function [nuest, cest, Jhist] = estFreq(r, options)
 % Jhist:  For gradient descent, returns the cost function for each
 %     iteration
 arguments
-    r (:,:) {double};
-
+    r (:,:) double;
     
-    options.method {string} = 'correlation';      
-    options.oversample {int32} = 1;
-
-
-    % number of iterations for gradient descent
-    options.nit {int32} = 100;
-
-    % initial step size for gradient descent
-    options.stepinit {double} = 1e-7;
-
-   
+    options.method char ...
+        {mustBeMember(options.method,{'correlation','fft','grad'})} ...
+        = 'correlation';      
+    options.oversample int32 = 1;
+    options.nit int32 = 100;
+    options.stepinit double = 1e-7;   
 
 end
 
