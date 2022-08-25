@@ -11,6 +11,6 @@ In this first lab, you will learn to:
 * Receive a single frame of complex baseband sampes to perform offline processing
 * Capture multiple frames and detect and visualize overflow.
 
-<img src="samples.png" alt="RX samples" width="250">
+<img src="samples.png" alt="RX samples" width="350">
 
 The main file is samples.mlx:  [[Matlab]](./samples.mlx) [[PDF]](./samples.pdf)
