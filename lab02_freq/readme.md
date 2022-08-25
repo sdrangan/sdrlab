@@ -9,7 +9,7 @@ Complex exponentials are the most fundamental signals for all frequency domain
 * Estimate the carrier frequency offset
 * Save data for files for offline processing 
 
-<img src="sinusoidFit.png" alt="sinuoidal fit with correlation" width="250">
+<img src="sinusoidFit.png" alt="sinuoidal fit with correlation" width="350">
 
 ## Files:
 
