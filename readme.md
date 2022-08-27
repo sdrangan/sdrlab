@@ -3,7 +3,8 @@
 [Sundeep Rangan](https://wireless.engineering.nyu.edu/sundeep-rangan/), Professor, ECE, New York University
 
 This repo contains some simple labs for software defined radios (SDRs).  I am developing these to be used in conjunction
-with the undergraduate and graduate digital communications classes at New York University.  The initial labs are based on
+with the undergraduate and graduate [digital communications classes](https://github.com/sdrangan/digitalcomm) at New York University.
+The initial labs are based on
 the simple, but excellent [ADALM-Pluto boards](https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/adalm-pluto.html)
 from Analog Devices along with an easy-to-use [MATLAB interface](https://www.mathworks.com/help/supportpkg/plutoradio/ug/install-support-package-for-pluto-radio.html).  NYU students enrolled in the class will be able to borrow a Pluto device from the TA.  All NYU students also have free access to MATLAB.
 
