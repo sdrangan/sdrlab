@@ -11,7 +11,7 @@ In this lab, you will learn to:
 
 ## Files:  
 
-The lab is in`labFreq.mlx`:  [[Matlab]](./labSymMod.mlx) [[PDF]](./labSymMod.pdf).
+The lab is in`labSymMod.mlx`:  [[Matlab]](./labSymMod.mlx) [[PDF]](./labSymMod.pdf).
 
 For the lab, complete the `TODO` sections, run the script, and print to PDF.
 Submit the PDF.  Do not submit the source code.
