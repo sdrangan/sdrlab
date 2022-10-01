@@ -35,11 +35,11 @@ from the former TA Ish Jain.
 
 
 ## Labs
-Currently two labs are done.  The other labs will be added over the semester.  I may also add some lecture slides and videos to help.
+Currently only a few labs are done.  The other labs will be added over the semester.  I may also add some lecture slides and videos to help.
 
 * [Lab 1](./lab01_intro/):  Setting up the SDR and transmitting and receiving baseband samples
 * [Lab 2](./lab02_freq/):  Frequency offset estimation 
-* Lab 3:  Measuring power spectral density
+* [Lab 3](./lab03_symmod/):  Symbol modulation and TX filtering
 * Lab 4:  SNR and gain control
 * Lab 5:  Timing estimation and frame synchronization
 * Lab 6:  OFDM equalization
