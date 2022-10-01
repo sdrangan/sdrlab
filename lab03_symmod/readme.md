@@ -9,7 +9,9 @@ In this lab, you will learn to:
 
 <img src="psd.jpg" alt="Received PSD" width="350">
 
-## Files:  The lab is in`labFreq.mlx`:  [[Matlab]](./labSymMod.mlx) [[PDF]](./labSymMod.pdf).
+## Files:  
 
-For the lab, complete the `TODO` sections in both files, run `labFreq.mlx`,
-and print to PDF.  Submit the PDF.
+The lab is in`labFreq.mlx`:  [[Matlab]](./labSymMod.mlx) [[PDF]](./labSymMod.pdf).
+
+For the lab, complete the `TODO` sections, run the script, and print to PDF.
+Submit the PDF.  Do not submit the source code.
