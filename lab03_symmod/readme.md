@@ -3,9 +3,11 @@
 In this lab, you will learn to:
  
 * Create a sequence of QAM symbols
-* Upsample and modulate the symbols with a TX interpolation filter
+* Design an FIR interpolation filter
+* Upsample and modulate the symbols with the designed filter
+* Select the appropriate backoff for the TX
 * Measure the TX and RX PSD
-* Continuously update the RX PSD to create a simple spectrum analyzer
+* Continuously measure the RX PSD to create a simple spectrum analyzer
 
 <img src="psd.jpg" alt="Received PSD" width="350">
 
