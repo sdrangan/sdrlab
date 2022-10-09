@@ -41,7 +41,7 @@ Currently only a few labs are done.  The other labs will be added over the semes
 * [Lab 1](./lab01_intro/):  Setting up the SDR and transmitting and receiving baseband samples
 * [Lab 2](./lab02_freq/):  Frequency offset estimation 
 * [Lab 3](./lab03_symmod/):  Symbol modulation and TX filtering
-* Lab 4:  SNR and gain control
+* [Lab 4](./lab04_chansounder/):  Building a simple channel sounder
 * Lab 5:  Timing estimation and frame synchronization
 * Lab 6:  OFDM equalization
 * Lab 7:  Transmitting and receiving 802.11-like packets
