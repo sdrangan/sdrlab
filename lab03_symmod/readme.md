@@ -9,7 +9,7 @@ In this lab, you will learn to:
 * Measure the TX and RX PSD
 * Continuously measure the RX PSD to create a simple spectrum analyzer
 
-<img src="psd.jpg" alt="Received PSD" width="350">
+<img src="psd.gif" alt="Received PSD" width="350">
 
 ## Files:  
 
