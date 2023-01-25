@@ -43,6 +43,6 @@ Currently only some of the labs are done.  The other labs will be added over the
 * [Lab 3](./lab03_symmod/):  Symbol modulation and TX filtering
 * [Lab 4](./lab04_chansounder/):  Building a simple channel sounder
 * [Lab 5](./lab05_gain/):  Gain control and building a simple AGC
-* Lab 6:  Timing estimation and frame synchronization
-* Lab 7:  OFDM equalization
+* [Lab 6](https://github.com/sdrangan/digitalcomm/tree/master/unit07_sync/labPartial)  Timing estimation and frame synchronization
+* [Lab 7](https://github.com/sdrangan/digitalcomm/tree/master/unit08_ofdm/labPartial) OFDM equalization
 * Lab 8:  Transmitting and receiving 802.11-like packets
